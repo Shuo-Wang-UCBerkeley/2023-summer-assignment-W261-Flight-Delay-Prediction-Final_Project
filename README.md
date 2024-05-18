@@ -2,13 +2,7 @@
 
 UC Berkeley MIDS Program 
 
-- Shuo Wang
-
-- A Adam Saleh
-
-Liang Li
-
-Qian Qiao
+Shuo Wang, A Adam Saleh, Liang Li, Qian Qiao
 
 Summer 2023
 
