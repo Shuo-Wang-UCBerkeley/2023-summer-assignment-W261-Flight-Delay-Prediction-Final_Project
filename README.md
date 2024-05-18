@@ -6,7 +6,6 @@ Shuo Wang, A Adam Saleh, Liang Li, Qian Qiao
 
 Summer 2023
 
-
 - [Final Project: Flight Delay Prediction](#flight-delay-prediction)
   - [Project Overview](#project-overview)
   - [Dataset](#dataset)
@@ -20,8 +19,9 @@ Summer 2023
 
 ## Project Overview
 
-In this research project, a banch of traditional machines learnings models and advanced Natural Language Processing (NLP) transformer models have been utilized to do the toxic comment classificaiton. Through meticulous experimentation on the Jigsaw Toxic Comment Classification dataset, it was
-revealed that fine-tuned transformer-based models not only substantially improved accuracy, precision, recall, F1 score, and ROC AUC metrics but also demonstrated RoBERTa and DistilBERT’s slight superiority across nearly all metrics. A model evaluation and metrics summary table is at the end of the project. 
+Problem: US Flight delays ⇒ affecting consumers nationwide
+
+Objective: Develop a predictive model that can anticipate flight delays (>15 mins).
 
 ## Dataset
 ![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Dataset.png)
