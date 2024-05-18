@@ -27,7 +27,7 @@ Objective: Develop a predictive model that can anticipate flight delays (>15 min
 ![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Dataset.png)
 
 There are four datasets used for this project. 
-- (1) The first dataset ('Flights Data') is for flights originating and landing from/to US Domestic airports from 2015 to 2021. 
+- (1) The first dataset (**Flights Data**) is for flights originating and landing from/to US Domestic airports from 2015 to 2021. 
 - (2) The second dataset (Weather Data) is for weather information from 2015 to 2021. 
 - (3) The third dataset (Station Data) is for the weather stations, which contains location and proximity information to help identify the closest weather station to any airport in the first dataset. 
 - (4) The fourth dataset (Airport Code Data) is for IATA airport code, a three-letter code that is used in passenger reservation, ticketing, and baggage-handling systems. 
