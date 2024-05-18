@@ -2,9 +2,9 @@
 
 UC Berkeley MIDS Program 
 
-Shuo Wang
+- Shuo Wang
 
-A Adam Saleh
+- A Adam Saleh
 
 Liang Li
 
