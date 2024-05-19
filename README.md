@@ -81,9 +81,5 @@ Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 ## Helpful Information
 ### Environment
 Databrick Notebook
-### Transformer Version
-Hugging Face updated the Transformers library, to run our code (like BERT) we need to revert to an earlier version of the Transformers library.
-
-!pip install -q transformers==4.37.2
 
 [Back-To-Top](#final-project-flight-delay-prediction)
