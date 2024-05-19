@@ -28,46 +28,18 @@ Objective: Develop a predictive model that can anticipate flight delays (>15 min
 
 There are four datasets used for this project. 
 - (1) The first dataset (**Flights Data**) is for flights originating and landing from/to US Domestic airports from 2015 to 2021. 
-- (2) The second dataset (Weather Data) is for weather information from 2015 to 2021. 
-- (3) The third dataset (Station Data) is for the weather stations, which contains location and proximity information to help identify the closest weather station to any airport in the first dataset. 
-- (4) The fourth dataset (Airport Code Data) is for IATA airport code, a three-letter code that is used in passenger reservation, ticketing, and baggage-handling systems. 
+- (2) The second dataset (**Weather Data**) is for weather information from 2015 to 2021. 
+- (3) The third dataset (**Station Data**) is for the weather stations, which contains location and proximity information to help identify the closest weather station to any airport in the first dataset. 
+- (4) The fourth dataset (**Airport Code Data**) is for IATA airport code, a three-letter code that is used in passenger reservation, ticketing, and baggage-handling systems. 
 
 There are joined tables (OTPW) using data from all previously mentioned data tables (Airline, weather, sation & AITA). OTPW tables for different time periods are also provided. These consist of 3m, 6m, 1yr and the complete dataset (2015-2019). The total size of the three month OTPW dataset is 1,500,620,247 bytes, with 1,401,363 rows and 216 columns. The total size of the 2015-2019 OTPW dataset is 6,525,616,408 bytes, with 31,673,119 rows and 214 columns.
 
 Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 ## EDA & Feature Engineering
-- Baseline Models
-    - CountVectorizer - Complement Naive Bayes (CNB)
-    - CountVectorizer - Multinomial Naive Bayes (MNB)
-    - TfidfVectorizer - CNB
-    - TfidfVectorizer - MNB
-- Transformer Models
-    - BART
-    - BERT
-    - BERT+CNN
-    - DistilBERT
-    - DistilBERT+CNN
-    - ALBERT
-    - RoBERTa
-    - Bidirectional_GRU
-- Models
-    - Deep Averaging Network (DAN)
-        - DAN-Static
-        - DAN_Retrain_word2vec
-        - DAN-REtrain_uniform
-    - Weighted Averaging Networks (WANs)
-    - Logestic Regression
-    - CNN
-        - CNN-non_Retrain
-        - CNN-Retrain
-    - RNN
-        - RNN-non_Retrain
-        - RNN-Retrain
-    - CNN_RNN
-        - CNN_RNN-non_Retrain
-        - CNN_RNN-Retrain
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/EDA-Feature_Engineering.png)
+
 ## Experienment Results
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Experiment_Results.png)
+
 
 ## Model Evaluation and Metrics Summary
 ![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Model_Evaluation_Metrics_Summary_1.png)
