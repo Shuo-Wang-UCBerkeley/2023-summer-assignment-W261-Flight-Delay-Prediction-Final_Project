@@ -36,7 +36,7 @@ There are joined tables (OTPW) using data from all previously mentioned data tab
 
 Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 ## EDA & Feature Engineering
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/EDA-Feature_Engineering.png)
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/Images/EDA-Feature_Engineering.png)
 
 ## Experienment Results
 
