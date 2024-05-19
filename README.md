@@ -6,7 +6,7 @@ Shuo Wang, A Adam Saleh, Liang Li, Qian Qiao
 
 Summer 2023
 
-- [Final Project: Flight Delay Prediction](#flight-delay-prediction)
+- [Final Project: Flight Delay Prediction](#Final-Project-flight-delay-prediction)
   - [Project Overview](#project-overview)
   - [Dataset](#dataset)
   - [EDA & Feature Engineering](#EDA&Feature-Engineering)
