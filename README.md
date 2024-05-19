@@ -10,8 +10,15 @@ Summer 2023
   - [Project Overview](#project-overview)
   - [Dataset](#dataset)
   - [EDA & Feature Engineering](#EDA-Feature-Engineering)
-  - [Experienment Results](#experienment-results)
-  - [Model Evaluation and Metrics Summary](#model-evaluation-and-metrics-summary)
+  - [Modeling Approach & Aspects](#Modeling-Approach-Aspects)
+    - [Model Pipeline](#model-pipeline)
+    - [Cross-Fold Validation](#Cross-Fold-Validation)
+    - [Preprocess Stage](#Preprocess-Stage)
+    - [Evaluation Metrics](#Evaluation-Metrics)
+  - [Results & Discussion](#Results-Discussion)
+    - [Experiments](#Experiments)
+    - [Model Performance](#Model-Performance)
+    - [Feature Importance](#Feature-Importance)
   - [Future Work](#future-work)
   - [Helpful Information](#helpful-information)
     - [Environment](#environment)
@@ -38,25 +45,38 @@ Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 ## EDA & Feature Engineering
 ![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/blob/main/Images/EDA-Feature_Engineering.png)
 
+## Modeling Approach & Aspects
+### Model Pipeline
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/blob/main/Images/Model-Pipeline.png)
 
+### Cross-Fold Validation
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/blob/main/Images/Cross-Fold-Validation.png)
 
-## Experienment Results
+### Preprocess Stage
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/blob/main/Images/Preprocess-Stage.png)
 
+### Evaluation Metrics
+- F2 - F Beta Score (Beta = 2.0)
+ - Weighted F2
+ - F2 - Label 1 (yes delay)
+ - F2 - Label 0 (no  delay)
+- F1 Score
+- Accuracy
+- Precision 
+- Recall
+- ROC-AUC
 
-## Model Evaluation and Metrics Summary
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Model_Evaluation_Metrics_Summary_1.png)
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Model_Evaluation_Metrics_Summary_2.png)
+## Results & Discussion
+### Experiments
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Experiments.png)
+### Model Performance
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Model-Performance.png)
+### Feature Importance
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Feature-Importance.png)
 
 ## Future Work
-1. Multi-Class Text Classification. 
-
-    The current data is highly imbalanced, a potential solution is to build a two-step models.  
-
-2. Parallel Computing Technique
-
-    Utilizing parallel computing technique to work for the advanced NLP algorithms, including RoBERTa-LONG, T5, and XLNET. These 3 models resulted in Resource Exhausted Errors with the limited GPU capacity in Google Colab.
-
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Label_Frequency.png)
+1. Execution time  
+2. Neural Network Implement
 
 ## Helpful Information
 ### Environment
