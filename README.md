@@ -32,9 +32,9 @@ There are four datasets used for this project.
 - (3) The third dataset (Station Data) is for the weather stations, which contains location and proximity information to help identify the closest weather station to any airport in the first dataset. 
 - (4) The fourth dataset (Airport Code Data) is for IATA airport code, a three-letter code that is used in passenger reservation, ticketing, and baggage-handling systems. 
 
-the last dataset helps to connect airport to stations and, subsequently, to weather data. the last two tables are relatively smaller tables with tens of thousands of rows. the flight table is expected to be joined with other three tables to obtain useful weather related features pertinenet to each of the flight records.
-Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 There are joined tables (OTPW) using data from all previously mentioned data tables (Airline, weather, sation & AITA). OTPW tables for different time periods are also provided. These consist of 3m, 6m, 1yr and the complete dataset (2015-2019). The total size of the three month OTPW dataset is 1,500,620,247 bytes, with 1,401,363 rows and 216 columns. The total size of the 2015-2019 OTPW dataset is 6,525,616,408 bytes, with 31,673,119 rows and 214 columns.
+
+Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 ## Models
 - Baseline Models
     - CountVectorizer - Complement Naive Bayes (CNB)
