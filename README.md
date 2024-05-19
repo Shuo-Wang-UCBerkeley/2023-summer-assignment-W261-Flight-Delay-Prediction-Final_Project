@@ -22,7 +22,6 @@ Summer 2023
   - [Future Work](#future-work)
   - [Helpful Information](#helpful-information)
     - [Environment](#environment)
-    - [Transformer Version](#transformer-version)
 
 ## Project Overview
 
@@ -31,8 +30,6 @@ Problem: US Flight delays ⇒ affecting consumers nationwide and impacting opera
 Objective: Develop a predictive model that can anticipate flight delays (>15 mins).
 
 ## Dataset
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Dataset.png)
-
 There are four datasets used for this project. 
 - (1) The first dataset (**Flights Data**) is for flights originating and landing from/to US Domestic airports from 2015 to 2021. 
 - (2) The second dataset (**Weather Data**) is for weather information from 2015 to 2021. 
