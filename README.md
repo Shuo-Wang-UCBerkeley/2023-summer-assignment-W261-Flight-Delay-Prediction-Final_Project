@@ -6,10 +6,10 @@ Shuo Wang, A Adam Saleh, Liang Li, Qian Qiao
 
 Summer 2023
 
-- [Final Project: Flight Delay Prediction](#Final-Project-flight-delay-prediction)
+- [Final Project: Flight Delay Prediction](#final-project-flight-delay-prediction)
   - [Project Overview](#project-overview)
   - [Dataset](#dataset)
-  - [EDA & Feature Engineering](#EDA&Feature-Engineering)
+  - [EDA & Feature Engineering](#EDA-Feature-Engineering)
   - [Experienment Results](#experienment-results)
   - [Model Evaluation and Metrics Summary](#model-evaluation-and-metrics-summary)
   - [Future Work](#future-work)
@@ -86,10 +86,10 @@ Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 
 ## Helpful Information
 ### Environment
-A series of notebooks and scripts are run on Google Colaboratory Pro using GPU environment.
+Databrick Notebook
 ### Transformer Version
 Hugging Face updated the Transformers library, to run our code (like BERT) we need to revert to an earlier version of the Transformers library.
 
 !pip install -q transformers==4.37.2
 
-[Back-To-Top](#flight-delay-prediction))
+[Back-To-Top](#final-project-flight-delay-prediction)
