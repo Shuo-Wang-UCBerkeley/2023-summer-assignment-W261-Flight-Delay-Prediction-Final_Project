@@ -9,7 +9,7 @@ Summer 2023
 - [Final Project: Flight Delay Prediction](#flight-delay-prediction)
   - [Project Overview](#project-overview)
   - [Dataset](#dataset)
-  - [Models](#models)
+  - [EDA & Feature Engineering](#EDA&Feature-Engineering)
   - [Experienment Results](#experienment-results)
   - [Model Evaluation and Metrics Summary](#model-evaluation-and-metrics-summary)
   - [Future Work](#future-work)
@@ -35,7 +35,7 @@ There are four datasets used for this project.
 There are joined tables (OTPW) using data from all previously mentioned data tables (Airline, weather, sation & AITA). OTPW tables for different time periods are also provided. These consist of 3m, 6m, 1yr and the complete dataset (2015-2019). The total size of the three month OTPW dataset is 1,500,620,247 bytes, with 1,401,363 rows and 216 columns. The total size of the 2015-2019 OTPW dataset is 6,525,616,408 bytes, with 31,673,119 rows and 214 columns.
 
 Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
-## Models
+## EDA & Feature Engineering
 - Baseline Models
     - CountVectorizer - Complement Naive Bayes (CNB)
     - CountVectorizer - Multinomial Naive Bayes (MNB)
@@ -92,4 +92,4 @@ Hugging Face updated the Transformers library, to run our code (like BERT) we ne
 
 !pip install -q transformers==4.37.2
 
-[Back-To-Top](#final-project-Text-Classification-on-Toxic-Comments)
+[Back-To-Top](#flight-delay-prediction))
