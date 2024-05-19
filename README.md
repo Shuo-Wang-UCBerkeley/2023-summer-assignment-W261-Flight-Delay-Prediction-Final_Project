@@ -57,9 +57,9 @@ Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 
 ### Evaluation Metrics
 - F2 - F Beta Score (Beta = 2.0)
- - Weighted F2
- - F2 - Label 1 (yes delay)
- - F2 - Label 0 (no  delay)
+    - Weighted F2
+    - F2 - Label 1 (yes delay)
+    - F2 - Label 0 (no  delay)
 - F1 Score
 - Accuracy
 - Precision 
@@ -68,11 +68,11 @@ Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 
 ## Results & Discussion
 ### Experiments
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Experiments.png)
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/blob/main/Images/Experiments.png)
 ### Model Performance
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Model-Performance.png)
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/blob/main/Images/Model-Performance.png)
 ### Feature Importance
-![alt text](https://github.com/Shuo-Wang-UCBerkeley/2024-spring-assignment-W266-NLP_Final_Project/blob/main/Images/Feature-Importance.png)
+![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/blob/main/Images/Feature-Importance.png)
 
 ## Future Work
 1. Execution time  
