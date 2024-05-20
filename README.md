@@ -15,7 +15,7 @@ Summer 2023
     - [Cross-Fold Validation](#Cross-Fold-Validation)
     - [Preprocess Stage](#Preprocess-Stage)
     - [Evaluation Metrics](#Evaluation-Metrics)
-  - [Results & Discussion](#Results-Discussion)
+  - [Results and Discussion](#Results-and-Discussion)
     - [Experiments](#Experiments)
     - [Model Performance](#Model-Performance)
     - [Feature Importance](#Feature-Importance)
@@ -63,7 +63,7 @@ Data dictionary: https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FGJ
 - Recall
 - ROC-AUC
 
-## Results & Discussion
+## Results and Discussion
 ### Experiments
 ![alt text](https://github.com/Shuo-Wang-UCBerkeley/2023-summer-assignment-W261-Flight-Delay-Prediction-Final_Project/blob/main/Images/Experiments.png)
 ### Model Performance
